@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/doughnut.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Divine Donuts</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <div class="navigation flex">
+        <div class="logo">
+          <h1>
+            Divine
+            <img src="/images/doughnut.png" alt="" />
+            Donuts
+          </h1>
+        </div>
+        <nav>
+          <ul class="flex links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#our-specials">Our Specials</a></li>
+            <li class="link"><a href="#our-menu">Menu</a></li>
+            <li class="link">
+              <a href="#customer-reviews">Customer Reviews</a>
+            </li>
+            <li class="link"><a href="#order-online">Order Online</a></li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- main content -->
+    <main id="home">
+      <!-- hero page -->
+      <div class="hero">
+        <div class="hero-main flex">
+          <div class="hero-content flex">
+            <div class="hero-container flex">
+              <h2>
+                Make your day <span>Divine</span> by tasting our
+                <span>Donuts!</span>
+              </h2>
+              <p>
+                Whether there's cream dripping out of it, or it's covered with
+                chocolate, a doughnut can really make someone's day. So why
+                don't you try out our specially made donuts?
+              </p>
+              <a href="#">Explore Menu</a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <div class="img-container">
+              <img src="/images/blob-haikei.png" alt="" class="bg-blob" />
+              <img src="/images/fourDonuts-min.png" alt="" class="donuts" />
+            </div>
+          </div>
+        </div>
+        <div class="hero-cards flex">
+          <div class="card card-1" data-aos="fade-right">
+            <div class="img-container">
+              <img src="/images/delivery.svg" alt="" />
+            </div>
+
+            <div class="card-content">
+              <h4>Fastest Free Delivery</h4>
+              <p>
+                Order our Donuts from home and get it delivered
+                <span>Instantly</span> within <span>20 Minutes</span>.
+              </p>
+            </div>
+          </div>
+          <div class="card card-2" data-aos="fade-right">
+            <div class="img-container">
+              <img src="/images/chef.svg" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>Highly Rated Chefs</h4>
+              <p>
+                No compromise in neither <span>Taste</span> nor
+                <span>Hygiene</span> thanks to High Class Chefs.
+              </p>
+            </div>
+          </div>
+          <div class="card card-3" data-aos="fade-right">
+            <div class="img-container">
+              <img src="/images/family.svg" alt="" />
+            </div>
+            <div class="card-content">
+              <h4>Highly Rated Chefs</h4>
+              <p>
+                An ideal place in India to enjoy and spend time with your
+                <span>Friends</span> and <span>Family</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our Specials -->
+      <div class="specials" id="our-specials">
+        <h2>Our Specials</h2>
+        <div class="img-slider" data-aos="fade-up">
+          <div class="slide slide1 active">
+            <img src="/images/chocolateDonut-min.png" alt="" />
+            <div class="info">
+              <h2>Chocolate Donut</h2>
+              <p>
+                These chocolate glazed donuts have a light yet moist crumb and a
+                rich, smooth chocolate glazed top.
+              </p>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <img src="/images/pinkDonut-min.png" alt="" />
+            <div class="info">
+              <h2>Strawberry Donut</h2>
+              <p>
+                Each donut is topped with a fresh strawberry glaze, and a
+                drizzle of cream cheese frosting.
+              </p>
+            </div>
+          </div>
+          <div class="slide slide3">
+            <img src="/images/whiteDonut-min.png" alt="" />
+            <div class="info">
+              <h2>Vanilla Donut</h2>
+              <p>
+                These vanilla glazed baked donuts are super simple to whip up.
+                Plus they are so pretty, they will definitely bring a smile to
+                your face!
+              </p>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Menu items -->
+      <div class="menu" id="our-menu">
+        <h2>Our Menu</h2>
+        <p>Click on Donuts for further details</p>
+        <div class="menu-container">
+          <div class="menu-card mc-1">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Coconut Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Coconut Donut</h3>
+                  <p>
+                    These Baked Coconut Donuts are for coconut lovers. Have a
+                    bite and you won't regret tasting it.
+                  </p>
+                  <p>$ 1.50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-2">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/strawberry frosted donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Strawberry Donut</h3>
+                  <p>
+                    The glazed is made from fresh strawberries pureed with
+                    melted butter and trust me, it melts in your mouth!
+                  </p>
+                  <p>$ 1.25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-3">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Blueberry Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Blueberry Donut</h3>
+                  <p>
+                    The glaze on these Blueberry flavored donuts provides just
+                    the right amount of crisp and crunch to the exterior.
+                  </p>
+                  <p>$ 1.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-4">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Old-Fashioned Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Old-Fashioned Donut</h3>
+                  <p>
+                    These reminds us of our childhood days and the warm
+                    memories.
+                  </p>
+                  <p>$ 1.36</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-5">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Vanilla-Frosted Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Vanilla-Frosted Donut</h3>
+                  <p>
+                    This colorful donut is nothing but a perfect vanilla
+                    delight!
+                  </p>
+                  <p>$ 2.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-6">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Cruller.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Cruller</h3>
+                  <p>
+                    Perfectly sweet with a great texture, we also love to pull
+                    the layers apart to make sure we are getting maximum sugar
+                    in every bite.
+                  </p>
+                  <p>$ 0.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-7">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Apple-Crumb Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Apple-Crumb Donut</h3>
+                  <p>
+                    An apple flavored donut with some delicous crumbs over it.
+                  </p>
+                  <p>$ 1.50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-8">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Chocolate-Frosted Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Chocolate-Frosted Donut</h3>
+                  <p>
+                    A legit choco taste with sprinkles adds perfect amount of
+                    fun.
+                  </p>
+                  <p>$ 1.60</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-9">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Marble-Frosted Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Marble-Frosted Donut</h3>
+                  <p>
+                    A little chocolate, a little vanilla—a whole lotta sweet.
+                  </p>
+                  <p>$ 1.59</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card mc-10">
+            <div class="card__inner">
+              <div class="card__face card-front">
+                <img src="/images/Glazed Donut.jpg" alt="" />
+              </div>
+              <div class="card__face card-back">
+                <div class="card__content">
+                  <h3>Glazed Donut</h3>
+                  <p>
+                    Sometimes plain is the best – especially when it comes to
+                    these Glazed Doughnuts! A yeast raised doughnut is covered
+                    in the perfect doughnut glaze
+                  </p>
+                  <p>$ 1.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- customer reviews -->
+      <div class="review flex" id="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <p>What customers say about Divine Donuts</p>
+        <div class="review-container flex">
+          <div class="review-card rc-1" data-aos="fade-left">
+            <p>4.5<i class="fas fa-star"></i></p>
+            <div class="review-body">
+              <h3>Delightful Experience</h3>
+              <p>
+                I had a good experience at Divine Donuts. I would definitely
+                recommend it. Great service!
+              </p>
+            </div>
+            <div class="review-head flex">
+              <img src="/images/Luriko Yamaguchi.jpg" alt="" />
+              <div class="customer-details">
+                <h4>Luriko Yamaguchi</h4>
+                <p>Minnesota</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card rc-2" data-aos="fade-right">
+            <p>4.5<i class="fas fa-star"></i></p>
+            <div class="review-body">
+              <h3>Best Hang out spot</h3>
+              <p>
+                This is the best place to hang out with friends and family. The
+                donuts here are the best!
+              </p>
+            </div>
+            <div class="review-head flex">
+              <img src="/images/Tomaz Barcellos.jpg" alt="" />
+              <div class="customer-details">
+                <h4>Tomaz Barcellos</h4>
+                <p>New York</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card rc-3" data-aos="fade-left">
+            <p>4.5<i class="fas fa-star"></i></p>
+            <div class="review-body">
+              <h3>Stimulates my mind</h3>
+              <p>
+                As a person working in a top-tech company, having some donuts
+                from here replenishes and stimulates my mental health.
+              </p>
+            </div>
+            <div class="review-head flex">
+              <img src="/images/Collis.jpg" alt="" />
+              <div class="customer-details">
+                <h4>Collis Hardy</h4>
+                <p>Chicago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact us -->
+      <div class="order-container flex" id="order-online">
+        <h2>Get 20% Off on all orders online</h2>
+        <div class="order-type flex" data-aos="fade-up">
+          <div class="type flex">
+            <div class="icon flex"><i class="fas fa-motorcycle fa-2x"></i></div>
+            <p>Get your food delivered for free within 20 minutes</p>
+          </div>
+          <div class="type flex">
+            <div class="icon flex">
+              <i class="fas fa-shopping-bag fa-2x"></i>
+            </div>
+            <p>Make your order from home and get it from our shop</p>
+          </div>
+          <div class="type flex">
+            <div class="icon flex"><i class="fas fa-utensils fa-2x"></i></div>
+            <p>Book a table in prior and enjoy our donuts</p>
+          </div>
+          <p class="order">Order Online</p>
+        </div>
+        <div class="popup">
+          <div class="content flex">
+            <p class="close">Cancel</p>
+            <img src="/images/order page.jpg" alt="" />
+            <form name="contact">
+              <div class="form-control flex">
+                <label for="">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="#name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-control flex">
+                <label for="">Address</label>
+                <input
+                  type="text"
+                  name="address"
+                  id="#address"
+                  placeholder="Address"
+                  required
+                />
+              </div>
+              <div class="form-control flex">
+                <label for="">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone-no"
+                  id="#phone-no"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div class="form-control radio-box flex">
+                <label for="">Order Method</label>
+                <div class="rb-container">
+                  <label class="container">
+                    Home Delivery
+                    <input type="radio" checked="checked" name="radio" />
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    Takeaway
+                    <input type="radio" name="radio" />
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    Dine-in
+                    <input type="radio" name="radio" />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+              <input type="submit" value="Order" class="place-order" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="footer flex">
+          <div class="copyrights">
+            <div class="logo">
+              <h1>
+                Divine
+                <img src="/images/doughnut.png" alt="" />
+                Donuts
+              </h1>
+            </div>
+            <p>Copyright &copy; 2021</p>
+          </div>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#our-specials">Our Specials</a></li>
+              <li><a href="#our-menu">Menu</a></li>
+              <li><a href="#customer-reviews">Customer Reviews</a></li>
+              <li><a href="#order-online">Order Online</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <h2>Contact us</h2>
+            <div class="contact-us">
+              <a
+                href="https://www.instagram.com/"
+                class="fab fa-instagram fa-2x"
+              ></a>
+              <a
+                href="https://www.twitter.com/"
+                class="fab fa-twitter fa-2x"
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                class="fab fa-facebook fa-2x"
+              ></a>
+              <a
+                href="mailto:pizzeria@outlook.com"
+                class="far fa-envelope fa-2x"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        delay: 200,
+      });
+    </script>
+    <script src="/script.js"></script>
+  </body>
+</html>
