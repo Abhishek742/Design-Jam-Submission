@@ -28,13 +28,23 @@
         </div>
         <nav>
           <ul class="flex links">
-            <li class="link"><a href="#home">Home</a></li>
-            <li class="link"><a href="#our-specials">Our Specials</a></li>
-            <li class="link"><a href="#our-menu">Menu</a></li>
             <li class="link">
-              <a href="#customer-reviews">Customer Reviews</a>
+              <a data-page="home" href="#home">Home</a>
             </li>
-            <li class="link"><a href="#order-online">Order Online</a></li>
+            <li class="link">
+              <a data-page="specials" href="#our-specials">Our Specials</a>
+            </li>
+            <li class="link"><a data-page="menu" href="#our-menu">Menu</a></li>
+            <li class="link">
+              <a data-page="review" href="#customer-reviews"
+                >Customer Reviews</a
+              >
+            </li>
+            <li class="link">
+              <a data-page="order-container" href="#order-online"
+                >Order Online</a
+              >
+            </li>
           </ul>
         </nav>
         <div class="burger">
@@ -47,7 +57,7 @@
     <!-- main content -->
     <main id="home">
       <!-- hero page -->
-      <div class="hero">
+      <section class="hero">
         <div class="hero-main flex">
           <div class="hero-content flex">
             <div class="hero-container flex">
@@ -101,7 +111,7 @@
               <img src="./images/family.svg" alt="" />
             </div>
             <div class="card-content">
-              <h4>Highly Rated Chefs</h4>
+              <h4>Have fun with Kin</h4>
               <p>
                 An ideal place in India to enjoy and spend time with your
                 <span>Friends</span> and <span>Family</span>.
@@ -109,9 +119,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Our Specials -->
-      <div class="specials" id="our-specials">
+      <section class="specials" id="our-specials">
         <h2>Our Specials</h2>
         <div class="img-slider" data-aos="fade-up">
           <div class="slide slide1 active">
@@ -151,9 +161,9 @@
             <div class="btn"></div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Menu items -->
-      <div class="menu" id="our-menu">
+      <section class="menu" id="our-menu">
         <h2>Our Menu</h2>
         <p>Click on Donuts for further details</p>
         <div class="menu-container">
@@ -328,9 +338,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- customer reviews -->
-      <div class="review flex" id="customer-reviews">
+      <section class="review flex" id="customer-reviews">
         <h2>Customer Reviews</h2>
         <p>What customers say about Divine Donuts</p>
         <div class="review-container flex">
@@ -386,9 +396,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- contact us -->
-      <div class="order-container flex" id="order-online">
+      <section class="order-container flex" id="order-online">
         <h2>Get 20% Off on all orders online</h2>
         <div class="order-type flex" data-aos="fade-up">
           <div class="type flex">
@@ -466,7 +476,7 @@
             </form>
           </div>
         </div>
-      </div>
+      </section>
       <!-- footer -->
       <footer>
         <div class="footer flex">
